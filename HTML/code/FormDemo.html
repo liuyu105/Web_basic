@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+<!--文本域-->
+<form>
+    First name: <input type="text" name="firstname"><br>
+    Last name: <input type="text" name="lastname"><br>
+</form>
+    <textarea rows="10" cols="30">
+我是一个文本框。
+</textarea><br/>
+
+<!--placeholder-->
+<input type="text" placeholder="请输入账号">
+
+<!--密码字段-->
+<form>
+    Password: <input type="password" name="pwd">
+</form>
+
+<!--单选框-->
+<form>
+    <input type="radio" name="sex" value="male">Male<br>
+    <input type="radio" name="sex" value="female">Female
+</form>
+
+<!--组合框-->
+<form>
+    <input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+    <input type="checkbox" name="vehicle" value="Car">I have a car
+</form>
+
+<!--submit-->
+<form name="input" action="html_form_action.php" method="get">
+    Username: <input type="text" name="user">
+    <input type="submit" value="Submit">
+</form>
+
+<!--下拉列表-->
+<form action="">
+    <select name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
+</form>
+</body>
+</html>
